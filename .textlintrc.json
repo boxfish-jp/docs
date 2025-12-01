@@ -1,0 +1,30 @@
+{
+	"filters": {
+		"comments": true
+	},
+	"rules": {
+		"preset-ja-technical-writing": {
+			"ja-no-mixed-period": false,
+			"max-kanji-continuous-len": false,
+			"no-unmatched-pair": false,
+			"sentence-length": false,
+			"ja-no-redundant-expression": true,
+			"no-doubled-joshi": true,
+			"no-doubled-conjunction": true
+		},
+		"preset-ja-spacing": {
+			"ja-space-between-half-and-full-width": {
+				"space": "never"
+			}
+		},
+		"spellcheck-tech-word": true,
+		"max-ten": {
+			"max": 3
+		},
+		"no-mix-dearu-desumasu": {
+			"preferInHeader": "",
+			"preferInBody": "である",
+			"strict": false
+		}
+	}
+}
