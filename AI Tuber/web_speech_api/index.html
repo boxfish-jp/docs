@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<body>
+    <div id="output"></div>
+
+    <script>
+        const outputDiv = document.getElementById('output');
+
+        function startRecognition() {
+            const api = new SpeechRecognition();
+            api.lang = "ja";
+            
+            api.onresult = (event) => {
+                outputDiv.innerText += event.results[0][0].transcript + "\n";
+            };
+
+            // 止まったら再開（ループ）
+            api.onend = () => api.start();
+            
+            api.start();
+        }
+
+        startRecognition();
+    </script>
+</body>
+</html>
