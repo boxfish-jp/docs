@@ -1,7 +1,7 @@
 ## パートナー型AI Tuberにおけるコンテキスト(会話履歴) ~戦略編~
 
 # 前置き
-この記事はQiita Advent Calendar 2025 / ひとりアドベントカレンダー 分野における ふぐおの配信関係多めひとり Advent Calendar 2025 の1 日目記事となります。  
+この記事はQiita Advent Calendar 2025 / ひとりアドベントカレンダー 分野における ふぐおの配信関係多めひとり Advent Calendar 2025 の2 日目記事となります。  
 
 https://qiita.com/advent-calendar/2025/fuguo_2025
 
