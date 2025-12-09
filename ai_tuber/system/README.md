@@ -22,6 +22,14 @@ https://qiita.com/advent-calendar/2025/fuguo_2025
 - 私が離席するときに声をかける
 - デスクトップのスクショを取り、スクショに基づいて発言する
 
+動作を見たいかたは以下の動画をご覧ください。  
+
+https://youtu.be/sDGx7GBClS4
+
+設計背景は以下の記事をご覧ください。  
+
+https://note.com/boxfish_jp/n/naa1f871baf36
+
 # システム図
 ![alt text](image.png)  
 
@@ -41,6 +49,30 @@ https://qiita.com/advent-calendar/2025/fuguo_2025
 ここのスキルに関しては、LLMのプロンプトを調整したり、新たにスキルを追加することなどが頻繁に行われるので、変更や追加をしやすいコンポーネント分けになっています。  
 
 スキル以外の箇所だと、AIもコメントも音声認識データも全て一つの経路を通り、DBへの登録やコンテキストの作成が行われることでコードがシンプルになり、分かりやすく、メンテナンス性の向上に寄与しています。  
+
+# その他技術的な詳細について
+## 音声認識
+
+https://qiita.com/boxfish_jp/items/578b74f5878e348cba99
+
+
+## AI TuberコントロールWebアプリ
+
+https://qiita.com/boxfish_jp/items/1226527d054635c3565a
+
+## コンテキストの制作
+
+https://qiita.com/boxfish_jp/items/39b690de88914238b4b9
+
+
+## 再生君(音声再生ソフトウェア)
+
+https://qiita.com/boxfish_jp/items/f2bd0d23337f9e0847b1
+
+## 配信UI
+以下の記事を応用しています。  
+
+https://qiita.com/boxfish_jp/items/1ba6e22a3667f295a0fe
 
 # まとめ
 メンテナンスしやすいコードを心がけていきたい。  
